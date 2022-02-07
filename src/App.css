@@ -1,0 +1,133 @@
+html, body{
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+}
+.light{
+  height: fit-content;
+  min-height: 100%;
+}
+
+.contries {
+  background-color: #ababb3;
+  box-shadow: 0px 10px 5px gray inset;
+}
+
+.light .card {
+  width: 24%;
+  margin: 3%;
+  display: inline-block;
+  height: 15%;
+  min-width: 300px;
+}
+
+.light .navBar button {
+  position: relative;
+  left: 90%;
+  bottom: 35px;
+  border: none;
+  padding: 0.5%;
+  background-color: #0f0f3100;
+  font-size: large;
+}
+
+.light .navBar {
+  padding: 1%;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+}
+.light .continents {
+  float: right;
+  padding: 0.7%;
+  margin: 1%;
+}
+
+.container {
+  margin-left: 10%;
+}
+.card img {
+  width: 100%;
+  max-width: 450px;
+  height: 200px;
+}
+.dark {
+  background-color: #0f0f31;
+  color: aliceblue;
+}
+
+.dark .card {
+  background-color: #20204d;
+}
+.dark .navBar {
+  width: 98%;
+  background-color: #20204d;
+}
+
+.dark .navBar button {
+  color: aliceblue;
+}
+
+.searchName {
+  padding: 2%;
+  border: none;
+}
+
+.searchName input {
+  padding: 0.7%;
+  width: 20%;
+  border-radius: 5px;
+  box-shadow: 1px 3px 12px 7px grey;
+}
+
+.image {
+  width: 40%;
+  min-width: 300px;
+}
+
+.border{
+  display: inline-block;
+  margin: 1%;
+  padding: 1%;
+  background-color: #ffffff0e;
+  border-radius: 2px;
+  border: 2px solid rgb(206, 206, 206);
+}
+
+.detailedDiv{
+  display: inline-block;
+  width: 15%;
+  min-width: 300px;
+  margin: 0.5%;
+}
+@media only screen and (min-width: 700px){
+.detail :nth-child(4){
+  display:contents;
+}
+}
+
+@media only screen and (max-width: 700px){
+  .detailedDiv{
+    text-align: center;
+    display:contents;
+    width: 16%;
+    min-width: 300px;
+  }
+  .image {
+    width: 100%;
+  }
+  .light .navBar button {
+    position: absolute;
+    left: 77%;
+    top: -86%;
+    border: none;
+    padding: 0.5%;
+    background-color: #0f0f3100;
+    font-size: large;
+  }
+
+}
+.detail{
+  margin-top: 12%;
+}
